@@ -25,8 +25,8 @@ Youtube: https://www.youtube.com/watch?v=j0eioK5edqg
 Tutorial:   
 link1: https://www.youtube.com/watch?v=vV12dGe_Fho   
 link2: https://www.youtube.com/watch?v=K_9G29R01kw&t=1176s 
-Model (Bitcoin): https://www.kaggle.com/code/someadityamandal/bitcoin-time-series-forecasting  
-Model (Energy): https://www.kaggle.com/code/robikscube/tutorial-time-series-forecasting-with-xgboost  
+Model (Bitcoin): https://www.kaggle.com/code/someadityamandal/bitcoin-time-series-forecasting    
+Model (Energy): https://www.kaggle.com/code/robikscube/tutorial-time-series-forecasting-with-xgboost    
 Git: https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/tree/master/Time-Series/XGBoost_for_TIme_Series_Dataset_Demand_Forecasting  
 Article: https://machinelearningmastery.com/gentle-introduction-xgboost-applied-machine-learning/
 
