@@ -24,7 +24,7 @@ Youtube: https://www.youtube.com/watch?v=j0eioK5edqg
 ## 2. Xgboost
 Tutorial:   
 link1: https://www.youtube.com/watch?v=vV12dGe_Fho   
-link2: https://www.youtube.com/watch?v=K_9G29R01kw&t=1176s 
+link2: https://www.youtube.com/watch?v=K_9G29R01kw&t=1176s   
 Model (Bitcoin): https://www.kaggle.com/code/someadityamandal/bitcoin-time-series-forecasting  
 Model (Energy): https://www.kaggle.com/code/robikscube/tutorial-time-series-forecasting-with-xgboost  
 Git: https://github.com/rohan-paul/MachineLearning-DeepLearning-Code-for-my-YouTube-Channel/tree/master/Time-Series/XGBoost_for_TIme_Series_Dataset_Demand_Forecasting  
@@ -68,9 +68,8 @@ Trong một số trường hợp một số lượng nhỏ của heteroskedastic
     |-------|-------|-----------|--------------|
     |Xác định p dựa vào đồ thị PACF |Xác định q dựa và ACF|Xác định p, q dựa vào PACF, ACF| Xác định p, q dựa vào PACF, ACF. Sai phân => d |  
     |<td colspan="4"> Chọn mô hình phù hợp với tiêu chí AIC, BIC, SC nhỏ nhất  </td>     |
-    |
-
-    VD: ![](AIC.png)
+    
+    VD:   ![](AIC.png)
     
     Tại sao lại chọn hệ số dựa vào PACF, ACF?  
     -> PACF, ACF là những hàm tương quan nó thể hiện mức độ tương quan giữa biến hiện tại tới các lag trong quá khứ -> chọn những lag có PACF ACF lớn (nằm ngoài mức)
@@ -83,7 +82,7 @@ Trong một số trường hợp một số lượng nhỏ của heteroskedastic
 
 * Công thức cho mô hình GARCH mô tả phương sai tại thời điểm 't' dựa trên các lỗi bình phương trễ và phương sai có điều kiện trễ:
 
-    σ²t = α₀ + α₁u²t₋₁ + α₂u²t₋₂ + ... + αₚu²t₋ₚ + β₁σ²t₋₁ + ... + β_q*σ²*t₋q
+      σ²t = α₀ + α₁u²t₋₁ + α₂u²t₋₂ + ... + αₚu²t₋ₚ + β₁σ²t₋₁ + ... + β_q*σ²*t₋q
 
 
 * Các tham số 'q' và 'p' trong GARCH(q, p) biểu thị:
