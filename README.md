@@ -50,7 +50,8 @@ Article: https://machinelearningmastery.com/gentle-introduction-xgboost-applied-
 là một mô hình thường được sử dụng trong phân tích chuỗi thời gian để mô hình hóa phương sai không đồng nhất (heteroskedasticity) trong dữ liệu. 
 * **AR**: Tự hồi quy với các biến trễ   
     VD: Tỉ lệ tăng trưởng GNP thực hiện theo quý của Mỹ từ năm 1947 - 1991 
-    ![](ar.png) “Tự hồi quy” vì tỷ lệ tăng trưởng của quý này phụ thuộc vào tỷ lệ tăng trưởng của 3 quý trước đó  
+    ![](ar.png)
+  “Tự hồi quy” vì tỷ lệ tăng trưởng của quý này phụ thuộc vào tỷ lệ tăng trưởng của 3 quý trước đó  
     Mô hình ARCH giả định rằng phương sai của một chuỗi thời gian có thể được mô hình hóa dựa trên các giá trị trước đó của chuỗi thời gian đó (được gọi là mô hình autoregressive). Mô hình này phù hợp với các trường hợp khi phương sai của dữ liệu biến đổi theo thời gian hoặc dựa trên điều kiện cụ thể.
 * **Heteroskedasticity**:  trong chuỗi thời gian xảy ra khi phương sai của phân phối dữ liệu cơ bản biến đổi theo thời gian. Trong một chuỗi thời gian lý tưởng, chúng ta thường mong đợi rằng phương sai sẽ không thay đổi, tạo ra một mô hình ổn định. Tuy nhiên trong thực tế điều này hiếm khi xảy ra, khi phương sai tăng hoặc giảm theo thời gian, chúng ta gặp phải heteroskedasticity.  
 Trong một số trường hợp một số lượng nhỏ của heteroskedasticity có thể được che giấu thông qua các biến đổi dữ liệu (tính sai phân diff, log, Substracting previous value with Shift,...) nhưng khi phương sai không chỉ biến đổi mà còn được điều kiện trên các bước thời gian trước đó, chúng ta gọi đó là conditional heteroskedasticity hoặc volatility clustering. Điều này có thể ảnh hưởng đến khả năng dự đoán và mô hình hóa chuỗi thời gian, đặc biệt trong việc dự báo chỉ số S&P500 và các thị trường tài chính khác.
@@ -69,7 +70,8 @@ Trong một số trường hợp một số lượng nhỏ của heteroskedastic
     |Xác định p dựa vào đồ thị PACF |Xác định q dựa và ACF|Xác định p, q dựa vào PACF, ACF| Xác định p, q dựa vào PACF, ACF. Sai phân => d |  
     |<td colspan="4"> Chọn mô hình phù hợp với tiêu chí AIC, BIC, SC nhỏ nhất  </td>     |
     
-    VD:   ![](AIC.png)
+    VD:    
+  ![](AIC.png)
     
     Tại sao lại chọn hệ số dựa vào PACF, ACF?  
     -> PACF, ACF là những hàm tương quan nó thể hiện mức độ tương quan giữa biến hiện tại tới các lag trong quá khứ -> chọn những lag có PACF ACF lớn (nằm ngoài mức)
